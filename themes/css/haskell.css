@@ -8,7 +8,7 @@
  * @size 16:9 1280px 720px
  */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/base16/material.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/material.min.css");
 /* line 86, ../../Programmering/Github/Marp-themes/themes/scss/haskell.scss */
 svg[data-marp-fitting='svg'] {
   max-height: 580px;
