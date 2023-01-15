@@ -8,7 +8,7 @@
  * @size 16:9 1280px 720px
  */
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|Roboto+Mono:400,700");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/material.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css");
 /* line 86, ../../Programmering/Github/Marp-themes/themes/scss/haskell.scss */
 svg[data-marp-fitting='svg'] {
   max-height: 580px;
@@ -753,6 +753,17 @@ section::after {
   right: 0;
   bottom: 0;
   font-size: 80%;
+}
+
+/* line 345, ../../Programmering/Github/Marp-themes/themes/scss/haskell.scss */
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* line 350, ../../Programmering/Github/Marp-themes/themes/scss/haskell.scss */
+.columns-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 /*# sourceMappingURL=haskell.css.map */
